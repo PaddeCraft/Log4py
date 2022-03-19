@@ -8,7 +8,7 @@ setup(
     url='https://github.com/PaddeCraft/Log4py',
     author='PaddeCraft',
     license='BSD 2-clause',
-    packages=['Log4py'],
+    packages=['log4py'],
     install_requires=['rich'],
 
     classifiers=[

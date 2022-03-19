@@ -4,7 +4,17 @@
 
 Log4py is a simple logging package written in python. It´s very simple to use, and only consists of one class.
 
-## Example:
+## Installation
+
+```shell
+# Latest release
+python3 -m pip install https://api.github.com/repos/PaddeCraft/Log4py/zipball
+
+# Developement version
+python3 -m pip install git+https://github.com/PaddeCraft/Log4py.git
+```
+
+## Example
 
 ```py
 from log4py.log4py import logger
