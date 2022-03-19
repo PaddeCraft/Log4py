@@ -1,8 +1,9 @@
 from setuptools import setup
+import log4py
 
 setup(
     name='Log4py',
-    version='0.0.1',
+    version=log4py.__version__,
     description='A simple python logging package',
     url='https://github.com/PaddeCraft/Log4py',
     author='PaddeCraft',
