@@ -5,7 +5,7 @@ from log4py.stringGenerator import stringGenerator
 class logger:
     def __init__(
         self,
-        timeFormat="%H:%M",
+        timeFormat="%H:%M:%S",
         useColor=True,
         prefix="",
         logFile=None,
